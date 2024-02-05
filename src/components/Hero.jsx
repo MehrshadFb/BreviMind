@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
-        <img src={logo} alt="sumz_logo" className="w-14 object-contain" />
+        <img src={logo} alt="brevimind_logo" className="w-14 object-contain" />
         <button
           type="button"
           onClick={() =>
-            window.open("https://github.com/MehrshadFb/", "_blank")
+            window.open("https://github.com/MehrshadFb/BreviMind", "_blank")
           }
           className="black_btn"
         >
